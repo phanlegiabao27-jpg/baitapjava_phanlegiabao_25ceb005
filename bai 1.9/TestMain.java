@@ -2,7 +2,6 @@ public class TestMain {
     public static void main(String[] args) {
         Ball ball = new Ball(1.1f, 2.2f, 10, 3.3f, (int) 4.4f);
         System.out.println(ball);
-        // Test Setters and Getters
         ball.setX(80.0f);
         ball.setY(35.0f);
         ball.setRadius(5);
